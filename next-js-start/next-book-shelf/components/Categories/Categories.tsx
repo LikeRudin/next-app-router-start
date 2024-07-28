@@ -11,6 +11,7 @@ const getCategories = async () => {
 
 const Categories = async () => {
   const categories = await getCategories();
+  //@ts-ignore
   const resultList = categories.results.map((item, index) => (
     <ArrowLink
       text={item.list_name}

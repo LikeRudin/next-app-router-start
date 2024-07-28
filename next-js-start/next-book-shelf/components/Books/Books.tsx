@@ -11,6 +11,7 @@ import * as Styles from "./Books.module.css";
 export const getBooks = async (genre: string) => {
   const response = await fetch(ONE_CATEGORY_BOOKS_URL(genre));
   const data = await response.json();
+  //@ts-ignore
   const books = data.results.books.map((book) => ({
     title: book.title,
     author: book.author,
