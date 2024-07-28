@@ -1,0 +1,20 @@
+.link {
+  height: 2rem;
+  width: auto;
+
+  display: flex;
+  align-items: center;
+
+  font-size: normal;
+  white-space: nowrap;
+
+  background-color: white;
+  color: #555555;
+  &:hover {
+    background-color: #555555;
+    color: white;
+    white-space: nowrap;
+
+    text-decoration: none;
+  }
+}
