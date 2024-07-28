@@ -6,7 +6,7 @@ import { ONE_CATEGORY_BOOKS_URL } from "@/app/constants";
 
 import { BookCard } from "../ui/BookCard";
 
-import * as Styles from "./Books.module.css";
+import Styles from "./Books.module.css";
 
 export const getBooks = async (genre: string) => {
   const response = await fetch(ONE_CATEGORY_BOOKS_URL(genre));

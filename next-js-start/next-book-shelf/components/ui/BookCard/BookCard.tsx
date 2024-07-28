@@ -2,12 +2,13 @@ import Image from "next/image";
 
 import { ArrowLink } from "../ArrowLink";
 
-import * as Styles from "./BookCard.module.css";
+import Styles from "./BookCard.module.css";
 
 interface IBookCardProps {
   coverImage: string;
   title: string;
   author: string;
+  outerLinkAddress: string;
 }
 
 const BookCard = ({

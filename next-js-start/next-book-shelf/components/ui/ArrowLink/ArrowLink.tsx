@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import * as Styles from "./ArrowLink.module.css";
+import Styles from "./ArrowLink.module.css";
 
 interface IArrowLink {
   text: string;

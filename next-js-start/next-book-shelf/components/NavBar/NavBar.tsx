@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import * as Styles from "./NavBar.module.css";
+import Styles from "./NavBar.module.css";
 
 const NavBar = () => (
   <div className={Styles.container}>
