@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 4%;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+.img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.title {
+  font-size: large;
+  color: #555555;
+}
+
+.author {
+  padding: 0.5rem;
+  text-align: center;
+  font-size: normal;
+  color: #2c87f2;
+}
