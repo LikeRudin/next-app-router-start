@@ -1,0 +1,25 @@
+.container {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  position: fixed;
+  top: 1.5rem;
+  width: 100vw;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+  height: 4rem;
+  width: 10rem;
+  background-color: white;
+  color: #555555;
+  &:hover {
+    background-color: #555555;
+    color: white;
+  }
+}
